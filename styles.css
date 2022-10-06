@@ -1,0 +1,188 @@
+/* Universal CSS */
+* {
+}
+
+html, body {
+    margin: 30px 0 0 0;
+    padding: 0;
+}
+
+/* Header */
+header h1 {
+    font-weight: 700;
+    font-size: 48px;
+    font-family: 'Bitter', serif;
+    text-align: center;
+    color: #8879B0;
+}
+
+#subhead {
+    font-weight: 600;
+    font-size: 36px;
+    font-family: 'Gochi Hand', cursive;
+    margin-top: -45px;
+    text-align: center;
+    color: #FFC996;
+}
+
+nav {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.navigation li {
+    text-align: center;
+    list-style: none;
+    margin: 50px 5px;
+    width: 32%;
+    height: 520px;
+    float: left;
+
+} 
+
+.navigation a {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 20%;
+    padding-top: 50%;
+    padding-bottom: 20%;
+    text-align: center;
+    background-color: #FF8474;
+    color: white;
+    font-weight: 700;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 42px;
+    text-decoration: none;
+    position: relative;
+
+}
+
+.navigation a:hover {
+    background-color: #FFC996;
+    border-radius: 2em;
+    transition: all 0.3s ease-in-out;
+    color: #FF8474;
+
+}
+
+.navigation a:active {
+    border: 5px solid white;
+}
+
+/* Main body */
+
+main {
+    margin: 40px;
+}
+
+main section {
+    padding: 20px;
+}
+
+#text-styles h1 {
+    text-align: left;
+}
+
+main .sec_title {
+    font-family: 'Bitter', serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+#color {
+    clear: left;
+}
+
+#color li {
+    border-radius: 3em;
+    list-style: none;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 650px;
+    height: 300px;
+    padding: 50px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin: 10px;
+    color: white;
+    font-family: 'Josefin Slab', serif;
+    font-size: 48px;
+    text-align: center;
+}
+
+
+
+#flesh {
+    background-color: #FFC996;
+}
+
+#orange {
+    background-color: #FF8474;
+}
+
+#purple {
+    background-color: #9F5F80;
+}
+
+#violet {
+    background-color: #583D72;
+}
+
+#fonts {
+    height: 800px;
+    font-size: 24px;
+}
+
+#fonts h3 {
+    background-image: linear-gradient(to right, #583D72, #FFC996);
+    padding: 10px;
+    padding-left: 40px;
+    margin-left: -40px;
+    color: white;
+}
+
+#fonts li {
+    list-style: none;
+}
+
+#fonts .font_strong {
+    font-weight: bold;
+}
+
+#fonts .font_em {
+    font-style: italic;
+}
+
+#fonts .gochi {
+    font-family: 'Gochi Hand', cursive;
+}
+
+.bitter {
+    font-family: 'Bitter', serif;
+}
+
+.josefin {
+    font-family: 'Josefin Slab', serif;
+}
+
+#text-styles {
+    height: 750px;
+    font-family: 'Josefin Slab', serif;
+    font-size: 24px;
+}
+
+#header1 h1 {
+    font-family: 'Bitter', serif;
+    
+}
+
+#header2 h2 {
+    font-family: 'Gochi Hand', cursive;
+}
+
+#header3 h3 {
+    font-family: 'Bitter', serif;
+}
